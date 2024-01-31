@@ -27,7 +27,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: rgba(165, 42, 42, 0);
-    width: 23rem;
+    width: 23.7rem;
 }
 
 .divisao-inicial {
@@ -52,9 +52,10 @@ h1 {
 .paragrafo-1 {
     background-color: rgba(137, 43, 226, 0);
     font-size: 1.2rem;
-    width: 22.3rem;
+    width: 23.6rem;
     height: 7.3rem;
     text-align: center;
+    color: #3d3d3d9d;
 }
 
 .sesao-inicial {

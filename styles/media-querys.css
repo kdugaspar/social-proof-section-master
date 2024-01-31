@@ -6,16 +6,292 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /* TABLET */
+body{
+    
+    background-color: rgba(0, 8, 8, 0);
+}
+main{
+    flex-direction: column;
+    background-color: rgba(127, 255, 212, 0);
+    width: 55rem;
+   }
+   h1{
+    font-size: 2.5rem;
+    width: 20rem;
+    height: 9rem;
+    color: #501d50;
+    text-align: left;
+    background-color: rgba(0, 255, 255, 0);
+   }
+   .paragrafo-1 {
+    background-color: rgba(156, 226, 43, 0);
+    font-size: 0.8rem;
+    width: 20rem;
+    height: 7.3rem;
+    text-align: left;
+    color: #3d3d3d9d;
+    line-height: 1rem;
+}
+.divisao-inicial{
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 255, 0);
+    width: 20rem;
+    height: 15rem;
+   }
+   .sesao-inicial{
+    background-color: rgba(137, 43, 226, 0);
+    width: 50rem;
+    height: 17rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+   }
+   .sesao-estrelas{
+    background-color: rgba(165, 42, 42, 0);
+    
+    width: 29rem;
+    height:10rem;
+    margin-top: 2rem;
+   }
+   .bloco-sesao{
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 14rem;
+    height: 0rem;
+    padding: 1rem;
+   }
+   .estrela{
+    width: 0.6rem;
+   }
+   .span-sesao-inicial{
+    font-size: 0.7rem;
+   }
+   .bloco-sesao-01{ }
 
+   .bloco-sesao-02{ margin-left: 3rem; }
+   .bloco-sesao-03{margin-left: 6rem; }
+   .sesao-artigos{
+    background-color: rgba(0, 255, 255, 0);
+    width: 50rem;
+    height: 30rem;
+    flex-direction: row;
+    justify-content: flex-start;
+   }
+   article {
+    background-color: #511f50;
+    width: 15rem;
+    height: 13rem;
+    gap: 1.5rem;
+}
+   .divisao-artigos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50rem;
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+    }
+    .artigo-01{ }
+    .artigo-02{ margin-top: 2rem; }
+    .artigo-03{ margin-top: 4rem; }
+
+    header {
+        background-color: rgba(0, 255, 255, 0);
+        width: 14rem;
+        height: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.2rem;
+    }
+    
+    .sesao-artigos-divisao {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .bloco-sesao-01{margin-left: 8.5rem; }
+   .bloco-sesao-02{ margin-left: 10.5rem; }
+   .bloco-sesao-03{margin-left: 12.5rem; }
+    
+.fotos {
+    width: 2rem;
+    border-radius: 4rem;
+}
+
+h2 {
+    font-size: 1rem;
+    color: white;
+}
+
+.span-sesao-artigos {
+    font-size: 1rem;
+    color: #c0679e;
+}
+
+.pararafo-artigo {
+    color: white;
+    width: 14rem;
+    height: 4rem;
+    background-color: rgba(19, 124, 216, 0);
+    font-size: 0.8rem;
+    line-height: 1rem;
+
+}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     /* DESKTOP */
-
+    body{
+    
+        background-color: rgba(0, 8, 8, 0);
+    }
+    main{
+        flex-direction: column;
+        background-color: rgba(127, 255, 212, 0);
+        width: 55rem;
+       }
+       h1{
+        font-size: 2.5rem;
+        width: 20rem;
+        height: 9rem;
+        color: #501d50;
+        text-align: left;
+        background-color: rgba(0, 255, 255, 0);
+       }
+       .paragrafo-1 {
+        background-color: rgba(156, 226, 43, 0);
+        font-size: 0.8rem;
+        width: 20rem;
+        height: 7.3rem;
+        text-align: left;
+        color: #3d3d3d9d;
+        line-height: 1rem;
+    }
+    .divisao-inicial{
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: rgba(0, 0, 255, 0);
+        width: 20rem;
+        height: 15rem;
+       }
+       .sesao-inicial{
+        background-color: rgba(137, 43, 226, 0);
+        width: 50rem;
+        height: 17rem;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0.5rem;
+       }
+       .sesao-estrelas{
+        background-color: rgba(165, 42, 42, 0);
+        
+        width: 29rem;
+        height:10rem;
+        margin-top: 2rem;
+       }
+       .bloco-sesao{
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 14rem;
+        height: 0rem;
+        padding: 1rem;
+       }
+       .estrela{
+        width: 0.6rem;
+       }
+       .span-sesao-inicial{
+        font-size: 0.7rem;
+       }
+       .bloco-sesao-01{ }
+    
+       .bloco-sesao-02{ margin-left: 3rem; }
+       .bloco-sesao-03{margin-left: 6rem; }
+       .sesao-artigos{
+        background-color: rgba(0, 255, 255, 0);
+        width: 50rem;
+        height: 30rem;
+        flex-direction: row;
+        justify-content: flex-start;
+       }
+       article {
+        background-color: #511f50;
+        width: 15rem;
+        height: 13rem;
+        gap: 1.5rem;
+    }
+       .divisao-artigos{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 50rem;
+        gap: 2rem;
+        background-color: rgba(0, 0, 0, 0);
+        }
+        .artigo-01{ }
+        .artigo-02{ margin-top: 2rem; }
+        .artigo-03{ margin-top: 4rem; }
+    
+        header {
+            background-color: rgba(0, 255, 255, 0);
+            width: 14rem;
+            height: 3rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1.2rem;
+        }
+        
+        .sesao-artigos-divisao {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        .bloco-sesao-01{margin-left: 8.5rem; }
+       .bloco-sesao-02{ margin-left: 10.5rem; }
+       .bloco-sesao-03{margin-left: 12.5rem; }
+        
+    .fotos {
+        width: 2rem;
+        border-radius: 4rem;
+    }
+    
+    h2 {
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .span-sesao-artigos {
+        font-size: 1rem;
+        color: #c0679e;
+    }
+    
+    .pararafo-artigo {
+        color: white;
+        width: 14rem;
+        height: 4rem;
+        background-color: rgba(19, 124, 216, 0);
+        font-size: 0.8rem;
+        line-height: 1rem;
+    
+    }
 }
 
 @media screen and (min-width: 1200px) {
-
+body{
+    
+    background-image: url("../images/bg-pattern-top-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-position: bottom 40rem right 50rem;
+}
    main{
     flex-direction: column;
     background-color: rgba(127, 255, 212, 0);
