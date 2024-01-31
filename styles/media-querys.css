@@ -57,6 +57,7 @@
     background-color: rgba(165, 42, 42, 0);
     width: 36rem;
     height:15rem;
+    margin-top: 2rem;
    }
    .bloco-sesao{
     flex-direction: row;
