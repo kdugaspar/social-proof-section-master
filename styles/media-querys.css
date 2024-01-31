@@ -6,10 +6,13 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /* TABLET */
-body{
-    
-    background-color: rgba(0, 8, 8, 0);
-}
+    body{
+        background-image: url("../images/bg-pattern-top-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        background-position: bottom 34rem right 39rem;
+       
+    }
 main{
     flex-direction: column;
     background-color: rgba(127, 255, 212, 0);
@@ -147,8 +150,11 @@ h2 {
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     /* DESKTOP */
     body{
-    
-        background-color: rgba(0, 8, 8, 0);
+        background-image: url("../images/bg-pattern-top-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 30rem;
+        background-position: bottom 34rem right 40rem;
+        background-color: rgba(11, 211, 211, 0);
     }
     main{
         flex-direction: column;
