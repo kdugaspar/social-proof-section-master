@@ -346,6 +346,10 @@ body{
 
    .bloco-sesao-02{ margin-left: 3rem; }
    .bloco-sesao-03{margin-left: 6rem; }
+   article {
+    gap: 1.6rem;
+    height: 16rem;
+}
    .sesao-artigos{
     background-color: rgba(0, 255, 255, 0);
     width: 80rem;
@@ -353,6 +357,23 @@ body{
     flex-direction: row;
     justify-content: flex-start;
    }
+   header {
+    background-color: rgba(0, 255, 255, 0);
+    height: 4.5rem;
+    align-items: flex-end;
+}
+.pararafo-artigo {
+    color: white;
+    width: 19rem;
+    height: 7rem;
+    font-size: 1.1rem;
+    background-color: rgba(19, 124, 216, 0);
+}
+.pararafo-artigo-02{
+    font-size: 1.2rem;
+    background-color: rgba(204, 126, 24, 0);
+    width: 20rem;
+}
    .divisao-artigos{
     display: flex;
     flex-direction: row;
